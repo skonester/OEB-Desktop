@@ -38,6 +38,48 @@ A python3 script to generate usfm and rtf files for all the books, whether in de
 
 To make these scripts work, you will need to have the USFM-Tools git repository from https://github.com/openenglishbible/USFM-Tools in this top level directory as the `USFM-Tools` folder.
 
+OEB Desktop Reader
+------------------
+
+This fork includes a desktop Bible reader application built with F# and WinForms, featuring text-to-speech capabilities.
+
+`OEB-Desktop/`
+A Windows desktop application for reading and listening to the Open English Bible. Features include:
+
+* **Book Navigation**: Browse books organized by biblical sections (Pentateuch, History, Poetry, Prophets, Gospels, Letters, Apocalypse)
+* **Chapter Selection**: Click on any chapter in the tree view to display its content
+* **Text-to-Speech**: Read Bible chapters aloud using multiple speech engines:
+  - **Windows Offline**: Uses built-in Windows speech synthesis (System.Speech)
+  - **Offline Neural**: Uses KokoroSharp for high-quality local neural voice synthesis
+  - **Azure Neural**: Uses Microsoft Azure Cognitive Services Speech for cloud-based neural voices
+* **Voice Selection**: Choose from available voices for your selected speech engine
+* **Playback Controls**: Play, Stop, Previous Chapter, Next Chapter navigation
+* **Speed Control**: Adjustable speech rate from -10 to +10
+* **Search**: Filter books and chapters by name or content
+
+### Building and Running
+
+Prerequisites:
+* [.NET 8.0 SDK](https://dotnet.microsoft.com/download) or later
+* Windows operating system (WinForms required)
+
+Build and run:
+```
+cd OEB-Desktop
+dotnet run
+```
+
+### Azure Neural Voices Setup
+
+To use Azure Neural voices, set the following environment variables:
+* `OEB_AZURE_SPEECH_KEY` - Your Azure Speech Service subscription key
+* `OEB_AZURE_SPEECH_REGION` - Your Azure Speech Service region (e.g., `eastus`)
+
+### Project Structure
+
+`OEB-Desktop/Program.fs` - Main application source code
+`OEB-Desktop/OEB-Desktop.fsproj` - Project file with dependencies including KokoroSharp, Microsoft.CognitiveServices.Speech, and System.Speech
+
 
 
 
