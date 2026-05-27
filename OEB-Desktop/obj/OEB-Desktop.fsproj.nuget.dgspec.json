@@ -1,0 +1,133 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\admin\\Documents\\Google Github\\Open-English-Bible\\OEB-Desktop\\OEB-Desktop.fsproj": {}
+  },
+  "projects": {
+    "C:\\Users\\admin\\Documents\\Google Github\\Open-English-Bible\\OEB-Desktop\\OEB-Desktop.fsproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\admin\\Documents\\Google Github\\Open-English-Bible\\OEB-Desktop\\OEB-Desktop.fsproj",
+        "projectName": "OEB-Desktop",
+        "projectPath": "C:\\Users\\admin\\Documents\\Google Github\\Open-English-Bible\\OEB-Desktop\\OEB-Desktop.fsproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\admin\\Documents\\Google Github\\Open-English-Bible\\OEB-Desktop\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files\\dotnet\\sdk\\10.0.201\\FSharp\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0-windows7.0": {
+            "targetAlias": "net8.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.200"
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "dependencies": {
+            "FSharp.Core": {
+              "include": "Runtime, Compile, Build, Native, Analyzers, BuildTransitive",
+              "target": "Package",
+              "version": "[10.1.201, )",
+              "generatePathProperty": true
+            },
+            "KokoroSharp": {
+              "target": "Package",
+              "version": "[0.6.7, )",
+              "generatePathProperty": true
+            },
+            "KokoroSharp.CPU": {
+              "target": "Package",
+              "version": "[0.6.7, )",
+              "generatePathProperty": true
+            },
+            "Krypton.Toolkit": {
+              "target": "Package",
+              "version": "[105.26.4.110, )",
+              "generatePathProperty": true
+            },
+            "Lucene.Net.Analysis.Common": {
+              "target": "Package",
+              "version": "[4.8.0-beta00017, )",
+              "generatePathProperty": true
+            },
+            "Microsoft.CognitiveServices.Speech": {
+              "target": "Package",
+              "version": "[1.50.0, )",
+              "generatePathProperty": true
+            },
+            "Microsoft.Data.Sqlite": {
+              "target": "Package",
+              "version": "[10.0.8, )",
+              "generatePathProperty": true
+            },
+            "NAudio": {
+              "target": "Package",
+              "version": "[2.2.1, )",
+              "generatePathProperty": true
+            },
+            "System.Speech": {
+              "target": "Package",
+              "version": "[10.0.8, )",
+              "generatePathProperty": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Runtime.win-x64",
+              "version": "[8.0.25, 8.0.25]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Runtime.win-x64",
+              "version": "[8.0.25, 8.0.25]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Runtime.win-x64",
+              "version": "[8.0.25, 8.0.25]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.201/PortableRuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win-x64": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

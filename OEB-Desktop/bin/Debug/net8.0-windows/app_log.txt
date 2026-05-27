@@ -1,0 +1,41 @@
+[2026-05-26 20:42:29] Application Main entry point reached.
+[2026-05-26 20:42:29] Visual styles initialized.
+[2026-05-26 20:42:29] Form created.
+[2026-05-26 20:42:29] UI Controls added to topBar.
+[2026-05-26 20:42:29] Bible path resolved: C:\Users\admin\Documents\Google Github\Open-English-Bible\OEB-Desktop\..\artifacts\us-release\OEB-2025.6-US.md
+[2026-05-26 20:42:29] Bible content loaded. Length: 1876442
+[2026-05-26 20:42:29] Parsed 44 books.
+[2026-05-26 20:42:29] Tree populated.
+[2026-05-26 20:42:29] Selected first chapter node.
+[2026-05-26 20:42:29] Invoking Application.Run(form).
+[2026-05-26 20:43:09] Application Main entry point reached.
+[2026-05-26 20:43:09] Visual styles initialized.
+[2026-05-26 20:43:09] Form created.
+[2026-05-26 20:43:09] UI Controls added to topBar.
+[2026-05-26 20:43:09] Bible path resolved: C:\Users\admin\Documents\Google Github\Open-English-Bible\OEB-Desktop\..\artifacts\us-release\OEB-2025.6-US.md
+[2026-05-26 20:43:09] Bible content loaded. Length: 1876442
+[2026-05-26 20:43:09] Parsed 44 books.
+[2026-05-26 20:43:09] Tree populated.
+[2026-05-26 20:43:09] Selected first chapter node.
+[2026-05-26 20:43:09] Invoking Application.Run(form).
+[2026-05-26 20:43:52] Application.Run(form) returned. Exiting main.
+[2026-05-26 20:44:02] Application Main entry point reached.
+[2026-05-26 20:44:02] Visual styles initialized.
+[2026-05-26 20:44:02] Form created.
+[2026-05-26 20:44:02] UI Controls added to topBar.
+[2026-05-26 20:44:02] Bible path resolved: C:\Users\admin\Documents\Google Github\Open-English-Bible\OEB-Desktop\..\artifacts\us-release\OEB-2025.6-US.md
+[2026-05-26 20:44:02] Bible content loaded. Length: 1876442
+[2026-05-26 20:44:02] Parsed 44 books.
+[2026-05-26 20:44:02] Tree populated.
+[2026-05-26 20:44:02] Selected first chapter node.
+[2026-05-26 20:44:02] Invoking Application.Run(form).
+[2026-05-26 20:44:20] Application.Run(form) returned. Exiting main.
+[2026-05-26 20:49:14] Loaded 44 books from USFM.
+[2026-05-26 20:54:22] Loaded 59 books from USFM.
+[2026-05-26 21:05:34] Loaded 59 books from USFM.
+[2026-05-26 21:09:02] Loaded 59 books from USFM.
+[2026-05-26 21:10:53] Loaded 59 books from USFM.
+[2026-05-26 21:12:44] Loaded 59 books from USFM.
+[2026-05-26 21:14:02] Loaded 59 books from USFM.
+[2026-05-26 21:17:00] Loaded 59 books from USFM.
+[2026-05-26 21:22:31] Loaded 59 books from USFM.

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<linker>
+  <assembly fullname="OEB-Desktop">
+    <resource name="FSharpSignatureData.OEB-Desktop" action="remove"></resource>
+    <resource name="FSharpSignatureCompressedData.OEB-Desktop" action="remove"></resource>
+    <resource name="FSharpSignatureDataB.OEB-Desktop" action="remove"></resource>
+    <resource name="FSharpSignatureCompressedDataB.OEB-Desktop" action="remove"></resource>
+    <resource name="FSharpOptimizationData.OEB-Desktop" action="remove"></resource>
+    <resource name="FSharpOptimizationCompressedData.OEB-Desktop" action="remove"></resource>
+    <resource name="FSharpOptimizationDataB.OEB-Desktop" action="remove"></resource>
+    <resource name="FSharpOptimizationCompressedDataB.OEB-Desktop" action="remove"></resource>
+    <resource name="FSharpOptimizationInfo.OEB-Desktop" action="remove"></resource>
+    <resource name="FSharpSignatureInfo.OEB-Desktop" action="remove"></resource>
+  </assembly>
+</linker>
